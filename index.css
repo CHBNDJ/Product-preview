@@ -42,8 +42,7 @@ body,html {
     line-height: auto;
     letter-spacing: 5px;
     color: hsl(228, 12%, 48%);
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin-bottom: 18px;
 }
 
 .card--title {
@@ -97,7 +96,7 @@ body,html {
     font-family: "Montserrat", sans-serif;
     cursor: pointer;
     border: none;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .card--group {
