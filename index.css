@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    width: 1440px;
+    height: 800px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--container {
+    position: absolute;
+    top: 175px;
+    left: 420px;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card--picture {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card--content {
+    margin: 30px 30px;   
+}
+
+.card--category {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    line-height: auto;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 30px;
+}
+
+.card--title {
+    font-family: "Fraunces", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: hsl(212, 21%, 14%);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card--description {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 23px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.card--price,
+.card--misprice {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+.card--price {
+    font-family: "Fraunces", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: hsl(158, 36%, 37%);
+}
+
+.card--misprice {
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    line-height: 23px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    text-decoration-color: hsl(228, 12%, 48%);
+    vertical-align: super;
+}
+
+.card--button {
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3D8168;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+.card--group {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    gap: 12px;
+    color: white;
+}
+
+.card--button__add {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+
+
+
+
