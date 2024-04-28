@@ -42,7 +42,8 @@ body,html {
     line-height: auto;
     letter-spacing: 5px;
     color: hsl(228, 12%, 48%);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .card--title {
